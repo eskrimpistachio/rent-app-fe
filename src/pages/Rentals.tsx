@@ -46,7 +46,7 @@ const Rental = () => {
         {data.length === 0 ? (
           <div className="rounded-2xl bg-[#252525] flex flex-row my-8 py-4 justify-around">
             <h1 className="text-2xl text-center">
-              Belum ada pesanan yang diterima
+              Belum ada pesanan yang diterima!
             </h1>
           </div>
         ) : isLoading ? (
@@ -77,7 +77,7 @@ const Rental = () => {
           </div>
         )}
         <div className="flex justify-center">
-          <Link to = "/">
+          <Link to="/">
             <Button>Back to Home</Button>
           </Link>
         </div>
